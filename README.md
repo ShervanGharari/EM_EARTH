@@ -15,9 +15,9 @@ pip install --no-index --upgrade pip
 pip install --no-index jupyter
 
 cd # go to home
-rm -rf CMIP6_downlaod
-git clone https://github.com/ShervanGharari/CMIP6_downlaod.git
-cd CMIP6_downlaod/code
+rm -rf EM_EARTH
+git clone https://github.com/ShervanGharari/EM_EARTH.git
+cd EM_EARTH/code
 jupyter nbconvert download_EM_EARTH.ipynb --to python
 python download_EM_EARTH.py
 ```
