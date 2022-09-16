@@ -1,5 +1,6 @@
-# CMIP6_downlaod
+# EM_EARTH
 
+## download EM_EARTH
 ```
 cd
 module reset
