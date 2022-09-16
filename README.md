@@ -14,7 +14,7 @@ source ~/EM-EARTH-env/bin/activate
 pip install --no-index --upgrade pip
 pip install --no-index jupyter
 
-cd # go to home
+cd # go to project space
 rm -rf EM_EARTH
 git clone https://github.com/ShervanGharari/EM_EARTH.git
 cd EM_EARTH/code
