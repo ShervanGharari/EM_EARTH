@@ -13,9 +13,14 @@ rm -rf ~/EM-EARTH-env
 virtualenv ~/EM-EARTH-env
 source ~/EM-EARTH-env/bin/activate
 pip install --no-index --upgrade pip
-pip install --no-index jupyter
+pip install --no-index requests
+pip install --no-index base64
+pip install --no-index hashlib
+pip install --no-index glob
+pip install --no-index xarray
+pip install --no-index matplotlib
 
-cd # go to project space
+cd # or go to project space
 rm -rf EM_EARTH
 git clone https://github.com/ShervanGharari/EM_EARTH.git
 cd EM_EARTH/code
