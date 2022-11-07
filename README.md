@@ -22,9 +22,11 @@ pip install --no-index glob
 pip install --no-index xarray
 pip install --no-index matplotlib
 pip install --no-index jupyter
+pip install --no-index netcdf4
+pip install --no-index h5netcdf
 
 cd /project/rpp-kshook/shg096/ # or go to project space
-rm -rf EM_EARTH
+rm -rf /EM_EARTH
 git clone https://github.com/ShervanGharari/EM_EARTH.git
 cd EM_EARTH/code
 jupyter nbconvert download_EM_EARTH.ipynb --to python
