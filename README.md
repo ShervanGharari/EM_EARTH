@@ -29,6 +29,7 @@ pip install --no-index jupyter
 pip install --no-index re
 pip install --no-index netcdf4
 pip install --no-index h5netcdf
+pip install --no-index gdown
 ```
 
 ### Activate the virtual ENV
@@ -37,7 +38,7 @@ pip install --no-index h5netcdf
 source ~/EM-EARTH-env/bin/activate
 ```
 
-### Clone the repo and run the scritp
+### Clone the repo and run the scritp on log in node
 
 ```
 rm -rf EM_EARTH
@@ -76,6 +77,7 @@ pip install --no-index jupyter
 pip install --no-index re
 pip install --no-index netcdf4
 pip install --no-index h5netcdf
+pip install --no-index gdown
 
 
 python merging_EM_EARTH.py
