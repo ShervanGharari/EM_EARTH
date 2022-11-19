@@ -1,0 +1,12 @@
+os
+hashlib
+glob
+pandas
+re
+gdown
+click
+psutil
+xarray
+netcdf4
+h5netcdf
+jupyter
